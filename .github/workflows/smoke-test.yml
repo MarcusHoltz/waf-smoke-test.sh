@@ -2,7 +2,7 @@ name: WAF Smoke Test
 
 on:
   schedule:
-    - cron: '0 0 * * 1'  # Weekly on Mondays
+#    - cron: '0 0 * * 1'  # Weekly on Mondays
   workflow_dispatch:     # Manual trigger
 
 jobs:
